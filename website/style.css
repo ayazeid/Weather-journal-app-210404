@@ -1,0 +1,122 @@
+body{
+    background: #f4f9f9;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color:#0a043c;
+}
+
+#app{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; 
+    align-items: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.holder{
+    margin: 50px;
+}
+
+.entry{
+    background:#ccf2f4;
+    box-shadow: 2px 4px 5px #a4ebf3;
+    border-radius: 0.2em;
+    border: none;
+}
+
+#entryHolder{
+    padding-left: 2em;
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+    font-weight: bold;
+    color: #91091e;
+
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    align-items: center;
+    height: 60px;
+    width: 320px;
+    background:#ccf2f4;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 1em;
+    box-shadow: 2px 4px 5px #ccf2f4;
+    border: none;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+   background-color: #91091e;
+    color: #f4f9f9;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #aaaaaa;
+    border-radius: 1em;
+    border: none;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#ccf2f4;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 1em;
+    box-shadow: 2px 4px 5px #ccf2f4;
+    border: none;
+    
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color:##aaaaaa;
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+   
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    
+    font-family: 'Oswald', sans-serif;
+
+} 
